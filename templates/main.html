@@ -5,55 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src=""></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/style.css">
     <title>Instagram</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div id="main">
         <div id="header">
             <div class="header-left">
-                <img id="logo" src="../img/insta-logo.png" />
+                <img id="logo" src="../static/img/insta-logo.png" />
             </div>
             <div class="header-right">
-                <img src="../img/camera@3x.png" />
-                <img src="../img/dm@3x.png" />
+                <img src="../static/img/camera@3x.png" />
+                <img src="../static/img/dm@3x.png" />
             </div>
         </div>
         <div id="container">
             <div id="story-container">
                 <div class="story-wrapper">
-                    <div class="story-off">
-                        <img src="../img/zzanggoo.PNG"/>
+                    <div class="story-on">
+                        <img src="../static/img/zzanggoo.PNG"/>
                     </div>
                     <p>내 스토리</p>
                 </div>
                 <div class="story-wrapper">
                     <div class="story-on">
-                        <img src="../img/yuri.PNG"/>
+                        <img src="../static/img/yuri.PNG"/>
                     </div>
                     <p>yuri</p>
                 </div>
                 <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/hooooon.PNG"/>
+                    <div class="story-off">
+                        <img src="../static/img/hooooon.PNG"/>
                     </div>
                     <p>hooooon</p>
                 </div>
                 <div class="story-wrapper">
-                    <div class="story-off">
-                        <img src="../img/chulsooo.PNG"/>
+                    <div class="story-on">
+                        <img src="../static/img/chulsooo.PNG"/>
                     </div>
                     <p>chulsooo</p>
                 </div>
                 <div class="story-wrapper">
                     <div class="story-off">
-                        <img src="../img/maenggoo.PNG"/>
+                        <img src="../static/img/maenggoo.PNG"/>
                     </div>
                     <p>maenggoo</p>
                 </div>
                 <div class="story-wrapper">
                     <div class="story-off">
-                        <img src="../img/superdog.png"/>
+                        <img src="../static/img/superdog.png"/>
                     </div>
                     <p>superdog</p>
                 </div>
@@ -62,31 +63,30 @@
                 <div class="post-wrapper">
                     <div class="post-header">
                         <div class="left-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p>zzanggoo</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="../img/more@3x.png">
+                            <img src="../static/img/more@3x.png">
                         </div>
                     </div>
                     <div class="post-body">
-                        <img src="../img/post1.PNG">
+                        <img src="../static/img/post1.PNG">
                         <div class="post-icons-wrapper">
                             <div class="left-wrapper">
-                                <!-- 아이콘 크기가 달라서 부득이 하게 이렇게 만들었으나, 클래스 없이 img로 처리하는게 맞습니다! -->
-                                <img class="post-icon" src="../img/like@3x.png">
-                                <img class="post-icon-2" src="../img/comment@3x.png">
-                                <img class="post-icon" src="../img/dm@3x.png">
+                                <img class="post-icon" src="../static/img/like@3x.png">
+                                <img class="post-icon-2" src="../static/img/comment@3x.png">
+                                <img class="post-icon" src="../static/img/dm@3x.png">
                             </div>
                             <div class="right-wrapper">
-                                <img src="../img/bookmark1.png"
-                                     onclick="this.src=this.src.match(/bookmark1/)?'../img/bookmark2.png':'../img/bookmark1.png';">
+                                <img src="../static/img/bookmark1.png"
+                                     onclick="this.src=this.src.match(/bookmark1/)?'../static/img/bookmark2.png':'../static/img/bookmark1.png';">
                             </div>
                         </div>
                     </div>
                     <div class="post-footer">
                         <div class="post-like-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p><strong>zzanggoo</strong>님 <strong>외 11,926명</strong>이 좋아합니다</p>
                         </div>
                         <div class="post-content-wrapper">
@@ -101,31 +101,31 @@
                 <div class="post-wrapper">
                     <div class="post-header">
                         <div class="left-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p>zzanggoo</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="../img/more@3x.png">
+                            <img src="../static/img/more@3x.png">
                         </div>
                     </div>
                     <div class="post-body">
-                        <img src="../img/post4.PNG">
+                        <img src="../static/img/post4.PNG">
                         <div class="post-icons-wrapper">
                             <div class="left-wrapper">
                                 <!-- 아이콘 크기가 달라서 부득이 하게 이렇게 만들었으나, 클래스 없이 img로 처리하는게 맞습니다! -->
-                                <img class="post-icon" src="../img/like@3x.png">
-                                <img class="post-icon-2" src="../img/comment@3x.png">
-                                <img class="post-icon" src="../img/dm@3x.png">
+                                <img class="post-icon" src="../static/img/like@3x.png">
+                                <img class="post-icon-2" src="../static/img/comment@3x.png">
+                                <img class="post-icon" src="../static/img/dm@3x.png">
                             </div>
                             <div class="right-wrapper">
-                                <img src="../img/bookmark1.png"
-                                     onclick="this.src=this.src.match(/bookmark1/)?'../img/bookmark2.png':'../img/bookmark1.png';">
+                                <img src="../static/img/bookmark1.png"
+                                     onclick="this.src=this.src.match(/bookmark1/)?'../static/img/bookmark2.png':'../static/img/bookmark1.png';">
                             </div>
                         </div>
                     </div>
                     <div class="post-footer">
                         <div class="post-like-wrapper">
-                            <img src="../img/zzanggoo.PNG">
+                            <img src="../static/img/zzanggoo.PNG">
                             <p><strong>zzanggoo</strong>님 <strong>외 2,536명</strong>이 좋아합니다</p>
                         </div>
                         <div class="post-content-wrapper">
@@ -140,31 +140,31 @@
                 <div class="post-wrapper">
                     <div class="post-header">
                         <div class="left-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p>zzanggoo</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="../img/more@3x.png">
+                            <img src="../static/img/more@3x.png">
                         </div>
                     </div>
                     <div class="post-body">
-                        <img src="../img/post3.PNG">
+                        <img src="../static/img/post3.PNG">
                         <div class="post-icons-wrapper">
                             <div class="left-wrapper">
                                 <!-- 아이콘 크기가 달라서 부득이 하게 이렇게 만들었으나, 클래스 없이 img로 처리하는게 맞습니다! -->
-                                <img class="post-icon" src="../img/like@3x.png">
-                                <img class="post-icon-2" src="../img/comment@3x.png">
-                                <img class="post-icon" src="../img/dm@3x.png">
+                                <img class="post-icon" src="../static/img/like@3x.png">
+                                <img class="post-icon-2" src="../static/img/comment@3x.png">
+                                <img class="post-icon" src="../static/img/dm@3x.png">
                             </div>
                             <div class="right-wrapper">
-                                <img src="../img/bookmark1.png"
-                                     onclick="this.src=this.src.match(/bookmark1/)?'../img/bookmark2.png':'../img/bookmark1.png';">
+                                <img src="../static/img/bookmark1.png"
+                                     onclick="this.src=this.src.match(/bookmark1/)?'../static/img/bookmark2.png':'../static/img/bookmark1.png';">
                             </div>
                         </div>
                     </div>
                     <div class="post-footer">
                         <div class="post-like-wrapper">
-                            <img src="../img/zzanggoo.PNG">
+                            <img src="../static/img/zzanggoo.PNG">
                             <p><strong>zzanggoo</strong>님 <strong>외 2,536명</strong>이 좋아합니다</p>
                         </div>
                         <div class="post-content-wrapper">
@@ -179,31 +179,31 @@
                 <div class="post-wrapper">
                     <div class="post-header">
                         <div class="left-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p>zzanggoo</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="../img/more@3x.png">
+                            <img src="../static/img/more@3x.png">
                         </div>
                     </div>
                     <div class="post-body">
-                        <img src="../img/post2.PNG">
+                        <img src="../static/img/post2.PNG">
                         <div class="post-icons-wrapper">
                             <div class="left-wrapper">
                                 <!-- 아이콘 크기가 달라서 부득이 하게 이렇게 만들었으나, 클래스 없이 img로 처리하는게 맞습니다! -->
-                                <img class="post-icon" src="../img/like@3x.png">
-                                <img class="post-icon-2" src="../img/comment@3x.png">
-                                <img class="post-icon" src="../img/dm@3x.png">
+                                <img class="post-icon" src="../static/img/like@3x.png">
+                                <img class="post-icon-2" src="../static/img/comment@3x.png">
+                                <img class="post-icon" src="../static/img/dm@3x.png">
                             </div>
                             <div class="right-wrapper">
-                                <img src="../img/bookmark1.png"
-                                     onclick="this.src=this.src.match(/bookmark1/)?'../img/bookmark2.png':'../img/bookmark1.png';">
+                                <img src="../static/img/bookmark1.png"
+                                     onclick="this.src=this.src.match(/bookmark1/)?'../static/img/bookmark2.png':'../static/img/bookmark1.png';">
                             </div>
                         </div>
                     </div>
                     <div class="post-footer">
                         <div class="post-like-wrapper">
-                            <img src="../img/zzanggoo.PNG">
+                            <img src="../static/img/zzanggoo.PNG">
                             <p><strong>zzanggoo</strong>님 <strong>외 2,536명</strong>이 좋아합니다</p>
                         </div>
                         <div class="post-content-wrapper">
@@ -218,31 +218,30 @@
                 <div class="post-wrapper">
                     <div class="post-header">
                         <div class="left-wrapper">
-                            <img src="../img/zzanggoo.PNG"/>
+                            <img src="../static/img/zzanggoo.PNG"/>
                             <p>zzanggoo</p>
                         </div>
                         <div class="right-wrapper">
-                            <img src="../img/more@3x.png">
+                            <img src="../static/img/more@3x.png">
                         </div>
                     </div>
                     <div class="post-body">
-                        <img src="../img/post5.PNG">
+                        <img src="../static/img/post5.PNG">
                         <div class="post-icons-wrapper">
                             <div class="left-wrapper">
-                                <!-- 아이콘 크기가 달라서 부득이 하게 이렇게 만들었으나, 클래스 없이 img로 처리하는게 맞습니다! -->
-                                <img class="post-icon" src="../img/like@3x.png">
-                                <img class="post-icon-2" src="../img/comment@3x.png">
-                                <img class="post-icon" src="../img/dm@3x.png">
+                                <img class="post-icon" src="../static/img/like@3x.png">
+                                <img class="post-icon-2" src="../static/img/comment@3x.png">
+                                <img class="post-icon" src="../static/img/dm@3x.png">
                             </div>
                             <div class="right-wrapper">
-                                <img src="../img/bookmark1.png"
-                                     onclick="this.src=this.src.match(/bookmark1/)?'../img/bookmark2.png':'../img/bookmark1.png';">
+                                <img src="../static/img/bookmark1.png"
+                                     onclick="this.src=this.src.match(/bookmark1/)?'../static/img/bookmark2.png':'../static/img/bookmark1.png';">
                             </div>
                         </div>
                     </div>
                     <div class="post-footer">
                         <div class="post-like-wrapper">
-                            <img src="../img/zzanggoo.PNG">
+                            <img src="../static/img/zzanggoo.PNG">
                             <p><strong>zzanggoo</strong>님 <strong>외 2,536명</strong>이 좋아합니다</p>
                         </div>
                         <div class="post-content-wrapper">
@@ -258,11 +257,11 @@
         </div>
         <div id="footer">
             <div id="icon-wrapper">
-                <img src="../img/home@3x.png">
-                <img src="../img/search@3x.png">
-                <img src="../img/trending@3x.png">
-                <img src="../img/like@3x.png">
-                <img src="../img/user@3x.png">
+                <img src="../static/img/home@3x.png">
+                <img src="../static/img/search@3x.png">
+                <img src="../static/img/trending@3x.png">
+                <img src="../static/img/like@3x.png">
+                <img src="../static/img/user@3x.png">
             </div>
         </div>
     </div>
