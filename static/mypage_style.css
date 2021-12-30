@@ -1,0 +1,55 @@
+body {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+#header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    max-width: 720px;
+    padding: 0px;
+}
+
+#header .header-left {
+    width: 90%;
+    padding: 1%;
+    float: left;
+    }
+
+#header .header-right {
+    margin-right: 3%;
+    width: 20%;
+    text-align:right;
+    margin: 0 10px;
+}
+
+#header .header-left #logo {
+    width: 27%;
+}
+
+
+/* 푸터 */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 720px;
+    border-top: 1px solid lightgray;
+    background-color: white;
+}
+
+#footer #icon-wrapper {
+    margin: 4% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer #icon-wrapper img {
+    width: 6%;
+}
