@@ -13,20 +13,19 @@ body {
     position: fixed;
     max-width: 720px;
     padding: 0px;
+    height: 100px;
 }
-
 #header .header-left {
-    width: 90%;
+    width: auto;
     padding: 1%;
     float: left;
     }
-
 #header .header-right {
-    margin-right: 3%;
+    max-width: 5%;
+    width: 6%;
     text-align:right;
     margin: 0 10px;
 }
-
 #header .header-left #logo {
     width: 27%;
 }
