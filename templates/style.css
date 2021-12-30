@@ -6,20 +6,24 @@ body {
 /* 헤더 */
 #header {
     display: flex;
-    justify-content: space-between;
     background-color: white;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     position: fixed;
     max-width: 720px;
 }
 
-#header .header-icon {
-    margin: 3% 5%;
-    width: 6%;
+#header .header-left {
+    margin-left: 3%;
 }
 
-#header #logo {
+#header .header-right {
+    margin-right: 3%;
+    width:
+}
+
+#header .header-left #logo {
     width: 27%;
 }
 
